@@ -2,6 +2,7 @@
    --primary-color: hsl(0, 0%, 93%);
    --secondary-color: hsl(0, 0%, 20%);
    --link-hover: hsl(48, 100%, 50%);
+   --focus-color: hsl(203, 100%, 25%);
 }
 
 /* CSS Reset */
@@ -92,6 +93,11 @@ section {
 section > div {
    display: flex;
    gap: 2rem;
+}
+
+/* Form */
+input:focus {
+   border: 1px solid var(--focus-color);
 }
 
 /* Footer */
