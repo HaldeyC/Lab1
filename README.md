@@ -2,4 +2,4 @@
 
 This is an assignment at Kristianstad University.
 
-The assignment is a personal portfolio website with jut plain HTML and CSS.
+The assignment is a personal portfolio website with just plain HTML and CSS.
