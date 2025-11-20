@@ -5,7 +5,7 @@
    --focus-color: hsl(203, 100%, 25%);
 }
 
-/* CSS Reset */
+/* Basic CSS reset */
 *,
 *::before,
 *::after {
@@ -22,6 +22,10 @@ body {
       "Open Sans", "Helvetica Neue", sans-serif;
    font-size: 1.1rem;
    line-height: 1.5;
+}
+
+img {
+   width: 400px;
 }
 
 a {
