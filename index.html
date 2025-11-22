@@ -9,7 +9,7 @@
    </head>
    <body id="top-of-page">
       <header>
-         <img class="logo" src="logo.webp" alt="logotype of a dragon" />
+         <a href="#top-of-page"><img class="logo" src="logo.webp" alt="logotype of a dragon" /></a>
          <nav class="header-navbar">
             <a href="#top-of-page">Home</a>
             <a href="#interests">Interests</a>
@@ -20,12 +20,12 @@
       <main>
          <!-- Hero -->
          <section class="hero">
-            <h1>This is me</h1>
-            <img src="me.webp" alt="an image of me" />
+            <h1>Haldey Portfolio</h1>
+            <img src="sakura.webp" alt="an image of sakura trees" />
          </section>
 
          <!-- Biography -->
-         <section>
+         <section id="biography">
             <h2>Biography</h2>
             <div>
                <p>
@@ -39,7 +39,7 @@
                   all the buildings were destroyed you could land the plane and win the game. This was a very
                   long time ago, but it is still a good memory to me.
                </p>
-               <img src="latte.webp" alt="an image of a cup of coffee" />
+               <img src="me.webp" alt="an image of mee" />
             </div>
          </section>
          <section id="interests">
@@ -80,42 +80,39 @@
                <img src="area.webp" alt="an image of an area in Stockholm" />
             </div>
          </section>
-         <section>
+         <section id="form">
+            <h2>Contact me</h2>
             <form method="post" action="mailto:cay.haldey@stud.hkr.se">
-               <fieldset>
-                  <legend>Contact Form</legend>
-
-                  <div>
-                     <label for="fname">First name</label>
-                     <input type="text" name="fname" required placeholder="John" />
-                  </div>
-                  <div>
-                     <label for="lname">Lastname</label>
-                     <input type="text" name="lname" required placeholder="Doe" />
-                  </div>
-                  <div>
-                     <label for="phone">Phone</label>
-                     <input
-                        type="tel"
-                        name="phone"
-                        pattern="[0-9]{2}-[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}"
-                        placeholder="46-8-123-456-78" />
-                  </div>
-                  <div>
-                     <label for="email">Email</label>
-                     <input type="email" name="email" required placeholder="john@doe.se" />
-                  </div>
-                  <div>
-                     <label for="msg">Message</label>
-                     <textarea
-                        name="msg"
-                        rows="10"
-                        cols="50"
-                        required
-                        placeholder="Enter your message"></textarea>
-                  </div>
-               </fieldset>
-               <input type="submit" value="Send message" />
+               <div>
+                  <label for="fname">First name</label>
+                  <input type="text" name="fname" required placeholder="John" />
+               </div>
+               <div>
+                  <label for="lname">Lastname</label>
+                  <input type="text" name="lname" required placeholder="Doe" />
+               </div>
+               <div>
+                  <label for="phone">Phone</label>
+                  <input
+                     type="tel"
+                     name="phone"
+                     pattern="[0-9]{2}-[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}"
+                     placeholder="46-8-123-456-78" />
+               </div>
+               <div>
+                  <label for="email">Email</label>
+                  <input type="email" name="email" required placeholder="john@doe.se" />
+               </div>
+               <div>
+                  <label for="msg">Message</label>
+                  <textarea
+                     name="msg"
+                     rows="10"
+                     cols="50"
+                     required
+                     placeholder="Enter your message"></textarea>
+               </div>
+               <button type="submit">Send</button>
             </form>
          </section>
       </main>
